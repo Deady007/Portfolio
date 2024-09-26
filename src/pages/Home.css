@@ -1,0 +1,46 @@
+/* Home Page */
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .home h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent-color);
+  }
+  
+  .home p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    line-height: 1.8;
+    color: #fff;
+  }
+  
+  .home .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .home .btn:hover {
+    background-color: #8b5e34;
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+  }
+  

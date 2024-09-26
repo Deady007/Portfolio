@@ -1,0 +1,64 @@
+/* Projects Page */
+.projects {
+    padding: 4rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  .projects h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--accent-color);
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  /* Project Card Styling */
+  .project-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    font-size: 1.2rem;
+    font-family: 'Cormorant Garamond', serif;
+    color: #555;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .project-card a:hover {
+    background-color: #8b5e34;
+    transition: background-color 0.3s ease;
+  }
+  
